@@ -1,1 +1,23 @@
 chapitre 4: Immunoglobulin/T-Cell Receptor Gene Rearrangement Analysis Using RNA-Seq
+But: Description des étapes pour effectuer une ARN-Seq et donné obtenu.
+On avons une description de comment les données de ARN-Seq sont obtenu puis analysées avec ARResT/Interrogate afin d'identifier des marqueurs.
+Pour etudier les réarrangement des génes des IG et les recepecteurs T, on effectue souvent une analyse PCR de l'ADN suivi d'un séquençage (sanger ou NGS).
+Mais cette méthode d'étude évolue et on commence à plutot faire de l'ARN-Seq. Des études montre que l'on peut déja identifer des réarrangement des génes dans la chaine lourde des l'IG.
+Les étapes de l'étude sont: 
+    1) purifaction des ARN avec une évalution de leurs qualité.
+    2)préparation du repecteur de l'ARN-seq
+        1) fragementation et purification avec des billes magnétique des ARNm polyadénylé
+        2) systhèse du permier brin de l'ADNc 
+        3) systhèse du brin complémentaire de l'ADNc
+        4) adénylation et ligature (proctection des brins et fermeture de ce dernier)
+        5) amplification par PCR
+    3) séquençage (systèmé de séquençage Illumina®)
+    4)traitement des données brutes (on obtient des fichers FASTQ individuelle pour chaque ééchantillon) 
+        -on peut notament controlé la qualité du séquençage grâce ces fichiers 
+    5) analyse bioinformatique
+        -utilisation de la plateforme d'immunoprofilage ARRest/interogate ( plus d'info ici: http://bat.infspire.org/arrest/ )
+            -le fichier obtenu est un tableau qui contient: 
+                -des informations sur l'échantillons et sur les réarrangements
+                -les coordonnées génomique approximatives des génes de réarrangement 
+                -le type de réarrangment 
+                -séquence d'A.A, segmentation.
