@@ -1,0 +1,48 @@
+chapitre 15
+but: étape de plannification de AIRR-Seq
+partie 1: étape de préparation du sequençage 
+  -choix de l'echantillon:
+    -sujet
+    -type d'échantillon 
+    -calendrier
+    -nombre
+    -budget
+  -organisme étudier?
+    -humain
+    -non humain 
+    -synthétique
+Limite des échantillons humain:
+  sang
+  LCR
+  Lavage BA
+  
+  Partie 2:
+  séquençage en vrac unicellulaire 2 méthode qui se complete
+    - depend du nombre de cellule et du but de l'annalyse
+    -perte d' information d'appariement du a l'étape de lyse cellulaire et completé par l'AIRR-seq qui va permettre de retrouver l'information perdu 
+    -faible quantité <20.000 cellules en raison du cout 
+   plus d'information a la lecture du chapitre 20
+   
+ Amplification ADN ou ARN?
+ ADN: ADN génomique, approche par PCR multiplex qui cible les gène V et J dans la meme réaction 
+  -aventage:
+    Matrice stable
+    Matrice par cellule 
+  donc etude d'un grand nombre de cellule à coût modeste
+  - inconvénient: potentiel biais d'amorce (voir chapitre 18)
+  
+  ARN: PCR multiplex sur les gène V et J ou V et C 
+  aventage: 
+  -"shot on goal": rendement plus élevé avec un faible nombre de cellules
+  -biais de pcr réduit  (région constante)
+  -incorparation d'identification (UMI)
+  -donnée sur la région constante 
+ Inconvénient:
+ coût plus élevé
+ biais induit par les différent transcrit en fonction du type cellulaire 
+  (voir chapitre 19)
+  
+  kit cormmercial vs kit "maison"
+  kit maison dosage moins précis que les commercials
+  kit commercial suive les normes iso
+    
