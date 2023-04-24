@@ -1,0 +1,18 @@
+Documentation IMGT Stat Clonotype 
+https://www.imgt.org/StatClonotype/IMGTStatClonotypeDoc.html
+
+Documentation IMGT/HigtV-quest
+https://www.imgt.org/HighV-QUEST/doc#statistiaclAnalysisTitle
+
+Documentation IMGT/V-quest
+https://www.imgt.org/IMGT_vquest/user_guide
+
+Jeu de donné pour tester les fonctionnalités
+https://www.imgt.org/IMGT_vquest/test_sets
+
+les diiférents outils de l'IMGT nous permettent d'aligné et de comparé les séquences avec une base de donné de l'IMGT.
+il y a une multitude de possibilité.
+les fichiers de sorti sont 1 repectoire avec 2 dossier:
+-fichiers CSV: avec 11 ou 12 fichier CSV voir immage 1
+-Fichier indivuduelle : 1 ficher par séquence (pas vu ce qu'il contenait)
+
