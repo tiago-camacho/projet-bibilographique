@@ -1,0 +1,9 @@
+10x Genomix 
+  -cell ranger mkfastaq
+    ->bcl2fastq (cf ARN)
+  -cellranger count et cell ranger multi
+    -> Fastq -(allignement, filtrage, comptage UMI, ...)-> matrice de barre code
+  -cell ranger Aggr
+    ->assemble toute les fichiers
+    
+il y a d'autre fonctionnalité là également une documentation approfondie peut etre faite, il y a également l'outil loupe browser qui serait utile d'étudier.
