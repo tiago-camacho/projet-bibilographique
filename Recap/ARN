@@ -1,0 +1,22 @@
+étape de la préparation de la libairie 
+  protocol LS nb d'échantillon < 48
+  protocol HS nb d'échantillon > 48
+  vérification par qPCR
+  
+Séquançage illumina
+   démultiplixéion bcl2fastq
+   visulation graphique sequencing analysis viewer (deve pour l'ADN donc probleme rencontrer 
+       entreé: fastq -> sorti: HTML
+   ARRest/Interagate (pipeline pas trouvé)
+       ->test
+       -> si test == ok alors
+       traite
+       sinon erreur contacter la plateforme
+       -> ficher de sorti tableur 
+       
+   pResto avec séquence UMI
+   multide de commande voir rapport et site internet 
+   
+   
+   à proposer de faire une documentation complete de l'utilisation de pResto chaque fonction fait quoi et pourquoi on l'utilise.
+      
